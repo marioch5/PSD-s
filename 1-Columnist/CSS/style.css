@@ -1,0 +1,200 @@
+/******************* GENERAL ***********************/
+.read-more{
+    text-decoration: none;
+    color: #ff9900;
+}
+
+/****************** NAVIGATION **********************/
+/***** rss-nav *****/
+#rss{
+    background-color: #2d2928;
+}
+
+.rss-nav-item{
+    font-size: .9em;
+    text-decoration: none;
+    color: #c4c4c4;
+
+    border-right: 1px solid #c4c4c4;
+}
+
+.rss-nav-item.last{
+    border: none;
+}
+
+.rss-nav-item:hover{
+    color: white;
+}
+
+#search-bar{
+    border-radius: 15px;
+}
+.search{
+    position: relative;
+}
+
+.fa{
+    position: absolute;
+
+    top: 10%;
+    left: 80%;
+}
+
+/**** title-nav ****/
+#title-text{
+    color: #666666;
+
+    font-size: 4em;
+}
+
+#sub-title{
+    color: #999999;
+}
+
+#title-text,
+#sub-title{
+    margin: 0;
+}
+
+#title-banner{
+    width: 468px;
+    height: 60px;
+
+    border: 1px solid gray;
+}
+/****** site-nav *******/
+#site-nav{
+    border-top: 3px double #e1e1e1;
+    border-bottom: 3px double #e1e1e1;
+}
+
+.site-nav-item{
+    text-decoration: none;
+    color: #666666;
+
+    border-right: 1px solid #666666;
+
+    text-align: center;
+}
+
+.site-nav-item.last{
+    border: none;
+}
+
+.site-nav-item:hover{
+    color: #ff9900;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+
+
+}
+
+.dropdown-title{
+    cursor: default;
+}
+
+.dropdown-content {
+    display: none;
+
+    top: 110%;
+    position: absolute;
+
+    background-color: #f9f9f9;
+
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5% 1%;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown-item{
+    border: 0;
+
+    text-align: left;
+
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+/************************* MAIN ******************************/
+/*** main-storie ***/
+#main-storie{
+    border-bottom: 1px solid #e1e1e1;
+}
+
+#main-storie-img{
+    height: 380px;
+}
+
+#main-storie-title{
+    font-size: 5.5em;
+
+    color: #666666;
+
+    font-family: 'Playfair Display', serif;
+}
+
+#main-storie-text{
+    color: #999999;
+}
+
+/*** other-stories ***/
+#other-stories{
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.storie-img{
+    height: 300px;
+
+    padding: 3%;
+
+    border: 1px solid #e1e1e1;
+
+    margin-top: 3%;
+}
+
+.storie-text{
+    color: #666666;
+
+    font-size: 1.3em;
+}
+
+.storie-date{
+    color: #999999;
+}
+
+/***************************** FOOTER *****************************/
+/***** bottom stories ******/
+.b-storie-title{
+    border-bottom: 1px solid #e1e1e1;
+
+    font-size: 1.1em;
+    color: #999999;
+}
+
+.b-storie-text{
+    text-decoration: none;
+    color: #ff9900;
+
+    font-size: 0.9em;
+}
+
+
+/****** site-footer *********/
+#site-footer{
+    background-color: #232323;
+}
+
+.copyright{
+    color: #919191;
+}

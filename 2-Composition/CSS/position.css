@@ -1,0 +1,191 @@
+header,
+main{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+body{
+    margin: 0;
+}
+/********************* HEADER ********************/
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 1%;
+
+    padding-bottom: 3%;
+}
+
+/*** navigation ***/
+#navigation{
+    flex: 2;
+
+    display: flex;
+}
+
+.nav-item{
+    flex: 1;
+}
+
+/*** title ***/
+#title{
+    flex: 1.8;
+}
+
+#main-title{
+    margin: 0;
+}
+
+#main-subtitle{
+    margin: 0;
+}
+
+/************************** MAIN ***************************/
+
+/******** scroll-display *********/
+#scroll-display{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+
+    padding-bottom: 2%;
+}
+
+#scroll-text{
+    max-width: 60%;
+
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#scroll-img{
+    min-width: 1100px;
+    max-height: 400px;
+}
+
+/******** scroll-nav *********/
+#scroll-nav{
+    display: flex;
+}
+
+
+
+/************ services **********/
+#services{
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+
+    padding-bottom: 3%;
+}
+
+.section-title{
+    position: absolute;
+
+    left: 44.8%;
+    bottom: 90%;
+}
+
+.service{
+    margin-top: 2%;
+
+    flex-basis: 25%;
+}
+
+
+/*********** players **************/
+#players{
+    position: relative;
+
+    display: flex;
+
+    margin-top: 4%;
+    padding-bottom: 4%;
+}
+
+.play{
+    bottom: 106%;
+    left: 45.2%;
+}
+
+.player{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+/******* latest work ***********/
+#latest-work{
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest-work-link{
+    margin-top: 3%;
+    padding-bottom: 3%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.latest-work-link.first{
+    justify-content: flex-start;
+}
+
+.latest-work-link.third{
+    justify-content: flex-end;
+}
+
+.ltw{
+    bottom: 89%;
+    left: 44.5%;
+}
+
+/***************************** FOOTER *******************************/
+
+.footer-container{
+    padding: 2%;
+
+    display: flex;
+}
+
+#latest-from-blog,
+#company-details,
+#contact-us{
+    flex: 1;
+}
+
+/******* latest-from-blog ********/
+.blog-post{
+    display: flex;
+    align-items: center;
+}
+
+.post-image{
+    width: 21%;
+}
+
+.post-content{
+    margin-left: 5%;
+}
+
+/******* company-details ********/
+#company-details{
+    text-align: center;
+}
+
+/********* contact-us *********/
+.contact-us-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-name,
+.form-email,
+.form-message{
+    margin-bottom: 3%;
+}

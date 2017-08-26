@@ -1,0 +1,237 @@
+/********************* HEADER ********************/
+/*font-family: 'Merriweather', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Lora', serif;*/
+.header-container{
+    border-bottom: 1px solid #e2e2e2;
+}
+/**** title *****/
+#main-title{
+    color: #505050;
+    font-family: 'Noto Serif', serif;
+
+    font-size: 2.5em;
+}
+
+#main-subtitle{
+    color: #666666;
+    font-family: 'Noto Serif', serif;
+}
+
+/**** navigation ****/
+#navigation{
+    background-color: #e2494b;
+
+    padding: 1.2%;
+
+    border-radius: 15px;
+}
+
+.nav-item{
+    text-align: center;
+    text-decoration: none;
+
+    color: white;
+
+    font-family: 'Merriweather', serif;
+}
+
+
+.nav-item:hover{
+    color: #ee9395;
+}
+
+/**** dropdown *****/
+.nav-item span{
+    cursor: default;
+}
+
+.dropdown{
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+
+    position: absolute;
+    background-color: #e2494b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/************************** MAIN ***************************/
+
+/******** scroll-display *********/
+#scroll-display{
+    border-bottom: 1px solid #e2e2e2;
+}
+
+#scroll-text{
+    text-align: center;
+
+    font-family: 'Lora', serif;
+    font-style: italic;
+    color: #505050;
+}
+
+
+/******** scroll-nav *********/
+.scroll-button{
+    cursor:pointer;
+
+    height: 13px;
+    width: 13px;
+    margin: 5px;
+    margin-top: 15%;
+
+    background-color: #bbbbbb;
+    border-radius: 50%;
+
+    transition: background-color 0.3s ease;
+}
+
+.scroll-button:hover {
+  background-color: #717171;
+}
+
+/************ services **********/
+
+.section-title{
+    text-transform: capitalize;
+    font-family: 'Merriweather', serif;
+
+    color: white;
+    background-color: #e2494b;
+
+    border-radius: 15px;
+
+    padding: .5% 1% .5% 1%;
+
+    font-size: 1em;
+}
+
+.service-title{
+    color: #666666;
+
+    text-align: center;
+
+    font-size: 1.2em;
+}
+
+.service-descripition{
+    color: #979797;
+    font-family: 'Noto Serif', serif;
+}
+
+.read-more{
+    text-decoration: none;
+
+    font-family: 'Noto Serif', serif;
+
+    color: #e2494b;
+}
+
+#services{
+    border-bottom: 1px solid #e2e2e2;
+}
+
+/*********** players **************/
+.player-image{
+    max-width: 100%;
+}
+
+.name-label{
+    font-weight: bold;
+}
+
+.name-label,
+.player-name,
+.player-description{
+    color: #979797;
+}
+
+#players{
+    border-bottom: 1px solid #e2e2e2;
+}
+
+/******* latest work ***********/
+.latest-work-image{
+    width: 80%;
+
+    height: 200px;
+}
+
+
+/******************************* FOOTER ***************************/
+.footer-container{
+
+    background-color: #e2e2e2;
+}
+/******* latest-from-blog ********/
+#latest-from-blog-title{
+    color: #333333;
+    font-family: 'Merriweather', serif;
+}
+
+.post-content{
+    text-decoration: none;
+}
+
+.post-title{
+    color: #e2494b;
+}
+
+.post-text{
+    color: #999999;
+}
+
+/******* company-details ********/
+#company-details-info > * {
+    color: #999999;
+}
+
+#company-details-info p{
+    margin: 0;
+}
+
+#company-details-info a{
+    color: #e2494b;
+}
+
+#company-details-title{
+    color: #333333;
+    font-family: 'Merriweather', serif;
+}
+
+#office-hours{
+    color: #999999;
+    font-weight: bold;
+}
+
+/***** contact-us *******/
+.contact-us-form > *{
+    border: 0;
+    border-radius: 10px;
+
+    padding: 2%;
+}
+
+.form-submit{
+    color: white;
+    background-color: #e2494b;
+
+    cursor: pointer;
+}
+
+.form-submit:active{
+    outline: 0;
+    transform: translateY(2px);
+}

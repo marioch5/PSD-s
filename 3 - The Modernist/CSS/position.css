@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+
+
+}
+
+/******************************* HEADER *************************************/
+.header-container{
+    padding: 0 4% 4% 4%;
+}
+
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/****************** Title ****************/
+
+#title{
+    flex: 1;
+}
+
+/***************** Navigation ************/
+
+#site-nav{
+    flex: 2;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item{
+    flex: 1;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 70%;
+
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/************** Scroll - Nav ************/
+.scroll-nav{
+    display: flex;
+}
+
+.scroll-itens{
+    flex: 1;
+
+    display: flex;
+
+    overflow: hidden;
+}
+
+.scrl-item{
+    position: relative;
+
+    min-width: 100%;
+
+    display: flex;
+}
+
+.scroll-content{
+    flex: 1;
+}
+
+.scroll-img{
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+}
+
+.scroll-button{
+    padding: 1%;
+
+    flex: 0.1;
+}
+
+
+/********************************* MAIN *************************************/
+.main-container{
+    padding: 4%;
+}
+
+/************** Services ***********/
+#services{
+    display: flex;
+    padding-bottom: 3%;
+    /*justify-content: center;
+    align-items: center;*/
+}
+
+
+.service{
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 2%;
+    padding: 2%;
+}
+
+.first{
+    margin-left: 0;
+}
+
+.last{
+    margin-right: 0;
+}
+
+/********** Latest Work *********/
+#latest-work{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+
+    padding-top: 3%;
+}
+
+#latest-work-title{
+    position: absolute;
+}
+
+.work{
+    margin-top: 2%;
+}
+
+#latest-work-title{
+    position: absolute;
+    left: 44.1%;
+    bottom: 92%;
+}
+
+/********************************* FOOTER ***********************************/
+.footer-container{
+    display: flex;
+
+    padding: 1% 5% 1% 5%;
+}
+
+.footer-container div{
+    flex: 1;
+    margin: 1%;
+}
+
+/********** from the blog **********/
+
+
+/********** quick links **********/
+#quick-links{
+    display: flex;
+    flex-direction: column;
+}
+
+#quick-links-title{
+    flex: 1;
+}
+
+#nav-quick-links{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/********** contact us **********/
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form > *{
+    margin: 1.2%;
+    padding: 3%;
+}

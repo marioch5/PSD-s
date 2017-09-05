@@ -1,0 +1,278 @@
+/******************************* HEADER *************************************/
+.header-container{
+    /*background-color: #661400;*/
+    background-color: #330a00;
+}
+
+#site-title,
+#site-subtitle,
+.nav-item{
+    font-family: 'Lora', serif;
+}
+
+/****************** Title ****************/
+#site-title{
+    color: white;
+
+    margin: 0;
+    margin-top: 5%;
+}
+
+#site-subtitle{
+    color: #979797;
+    font-size: 1em;
+
+    margin: 0;
+    margin-bottom: 5%;
+}
+
+
+/***************** Navigation ************/
+
+.nav-item{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    border-radius: 10px;
+    padding: 2%;
+
+    text-align: center;
+}
+
+.nav-item:hover{
+    background-color: #76c38f;
+}
+
+.dropdown-content{
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    padding: 12px 16px;
+}
+
+.dropdown-content a:hover {
+    background-color: #76c38f;
+    color: white;
+}
+
+/************** Scroll - Nav ************/
+.scroll-img img{
+    width: 380px;
+    height: 380px;
+
+    border-radius: 100%;
+    border: 20px solid gray;
+}
+
+.scroll-content > *{
+    font-family: 'Lora', serif;
+}
+
+.scroll-title{
+    color: white;
+    font-size: 3.9em;
+
+    margin-bottom: 1%;
+}
+
+.scroll-text{
+    margin-bottom: 7%;
+}
+
+.scroll-text{
+    color: #979797;
+}
+
+.scroll-link{
+    text-decoration: none;
+    color: white;
+    background-color: #76c38f;
+
+    border-radius: 10px;
+    padding: 2%;
+}
+
+.scroll-button{
+    border: none;
+    background-color: transparent;
+
+    color: #76c38f;
+    font-size: 3em;
+
+    cursor: pointer;
+}
+
+/********************************* MAIN *************************************/
+.main-container{
+    background-color: #661400;
+}
+
+/************** Services ***********/
+
+.service{
+    background-color: white;
+    text-decoration: none;
+}
+
+.service-img{
+    width: 120px;
+    height: 120px;
+}
+
+.service-title{
+    font-family: 'Lora', serif;
+    color: #333333;
+
+    font-size: 2.2em;
+    text-align: center;
+
+    margin-bottom: 0;
+}
+
+.service-text{
+    text-align: center;
+    font-family: 'Lora', serif;
+    color: #979797;
+
+    margin-bottom: 0;
+}
+
+.service:hover{
+    background-color: #76c38f;
+}
+
+.service:hover .service-text,
+.service:hover .service-title{
+    color: white;
+}
+
+/******************* Latest Work *******************/
+#latest-work{
+    border-top: 2px solid #303030;
+
+    position: relative;
+}
+.work{
+    border: 5px solid white;
+    background-color: black;
+    text-decoration: none;
+
+}
+
+.work-img{
+    width: 290px;
+    height: 190px;
+
+    background-color: #303030;
+}
+
+.work-text{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+
+    margin-top: 1.8%;
+    margin-bottom: 2.5%;
+}
+
+.work:hover{
+    border-color: #76c38f;
+    background-color: #303030;
+}
+
+.work:hover .work-text{
+    display: none;
+}
+
+#latest-work-title{
+    font-family: 'Lora', serif;
+    color: white;
+    background-color: #303030;
+
+    border-radius: 10px;
+    padding: 1%;
+}
+
+/********************************* FOOTER ***********************************/
+.footer-container{
+    background-color: #303030;
+}
+
+.footer-container > * {
+    font-family: 'Lora', serif;
+    color: #979797;
+}
+
+.footer-container h3{
+    color: white;
+    font-family: 'Lora', serif;
+}
+
+
+
+/********** from the blog **********/
+.post-title,
+.post-writer,
+.read-more{
+    color: #76c38f;
+}
+
+.post-title,
+.post-owner{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.post-text{
+    font-size: 0.8em;
+}
+
+.read-more{
+    text-decoration: none;
+}
+
+/********** quick links **********/
+.quick-link-nav{
+    text-decoration: none;
+    color: #76c38f;
+    font-size: 0.9em;
+
+    padding-bottom: 1%;
+
+    border-bottom: 1px solid #979797;
+}
+
+/********** latest-tweets **********/
+.tweet{
+    margin: 0;
+}
+
+.tag{
+    color: #76c38f;
+}
+
+.tweet > *{
+    font-size: 0.9em;
+}
+
+/********** contact us **********/
+.contact-form > *{
+    border: 0;
+    border-radius: 10px;
+}
+
+.contact-input{
+    background-color: #222222;
+}
+
+.contact-button{
+    background-color: #76c38f;
+    color: #303030;
+}
